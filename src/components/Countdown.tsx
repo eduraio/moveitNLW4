@@ -26,6 +26,7 @@ export function Countdown() {
             { hasFinishied ? (
                 <button disabled className={styles.countdownButton}>
                     Ciclo encerrado
+                    <img src='icons/twitter.svg' alt="Check" />
                 </button>
             ) : (
                 isActive ? (

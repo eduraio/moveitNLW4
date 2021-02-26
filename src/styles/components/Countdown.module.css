@@ -74,7 +74,12 @@
     color: var(--white)
 }
 
+.countdownButton:disabled img {
+    margin-left: 0.5rem;
+}
+
 .countdownButton:disabled {
+    
     background: var(--white);
     color: var(--title);
     cursor: not-allowed;
